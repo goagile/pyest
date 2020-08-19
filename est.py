@@ -1,3 +1,26 @@
+"""
+1d4h    
+1*d+4*h
+d(1)*h(4)
+
+h * '1d4h'
+
+'1d4h' * h
+
+P('1d4h') * h
+
+
+"""
+
+class Period:
+
+	def __init__(self, weeks, days, hours):
+		self.weeks = weeks
+		self.days = days
+		self.hours = hours
+
+	def __str__(self):
+		return "p"
 
 
 class Hour:
